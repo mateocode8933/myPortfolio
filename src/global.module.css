@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+:root {
+    --White: #ffffff;
+    --DarkWhiteBcg: #fafafa;
+    --MainPurple:linear-gradient(
+        to left bottom,
+        #7d62f2,
+        #7f65ee,
+        #8168ea,
+        #836ae6,
+        #856de2,
+        #8a6cdc,
+        #8f6bd6,
+        #936ad0,
+        #9a65c7,
+        #9f60be,
+        #a45bb5,
+        #a757ac
+      );
+    --MainPurpleHover:linear-gradient(
+        to left bottom,
+        #9e8fdc,
+        #9c8cdd,
+        #9989dd,
+        #9785de,
+        #9482de,
+        #977fdb,
+        #9a7cd8,
+        #9d79d5,
+        #a576ce,
+        #ab74c7,
+        #b172c0,
+        #b570b9
+      );
+    --MainOrange:linear-gradient(to right bottom, #fd4d3e, #fe315c, #f61a7a, #e51b97, #c830b3);
+      --MainOrangeHover: linear-gradient(
+        to right bottom,
+        #fc3422d2,
+        #ff004ccb,
+        #ff0073c5,
+        #f20099d2,
+        #d517bccb
+      );;
+    --DarkTextColorNav: #4c4486;
+    --DarkTextColor: #221E41;
+    --DarkTextColorHover: #26224b;
+    --NavLinkColor: #4e4e4e;
+}
+
+html {
+    font-size: 10px;
+    overflow-x: hidden;
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: "Fraunces";
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+
